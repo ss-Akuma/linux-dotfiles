@@ -1,0 +1,6 @@
+2024-06-25 15:45:00.979 [info] update#setState disabled
+2024-06-25 15:45:00.981 [info] update#ctor - updates are disabled as there is no update URL
+2024-06-25 17:15:00.597 [error] ptyHost terminated unexpectedly with code 0
+2024-06-25 17:15:00.611 [info] Extension host with pid 27661 exited with code: 0, signal: unknown.
+2024-06-25 17:15:00.611 [error] [UtilityProcess id: 1, type: extensionHost, pid: 27661]: crashed with code 15 and reason 'killed'
+2024-06-25 17:15:00.618 [error] [UtilityProcess type: shared-process, pid: 27680]: crashed with code 15 and reason 'killed'

@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Dracula At Night",
+    "editor.fontSize": 20,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize",
+        "editor.fontFamily"
+    ],
+    "customizeUI.font.monospace": "MonoNerd",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontLigatures": false
+}

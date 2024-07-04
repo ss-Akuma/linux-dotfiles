@@ -1,0 +1,4 @@
+2024-06-10 21:14:51.763 [info] Started local extension host with pid 11862.
+2024-06-10 21:14:54.553 [info] [perf] Render performance baseline is 22ms
+2024-06-10 21:14:57.759 [warning] Settings pattern "accessibility.signalOptions.*" doesn't match any settings
+2024-06-10 21:17:00.225 [warning] Settings pattern "accessibility.signalOptions.*" doesn't match any settings

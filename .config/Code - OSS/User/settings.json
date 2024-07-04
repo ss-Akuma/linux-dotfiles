@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Tokyo City Darker",
+    "editor.fontSize": 18,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize",
+        "editor.fontFamily"
+    ],
+    "customizeUI.font.monospace": "MonoNerd",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Iosevka",
+    "editor.fontWeight": "normal",
+    "git.autofetch": true
+}

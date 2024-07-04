@@ -1,0 +1,139 @@
+2024-06-27 17:32:51.118 [info] Log level: Info
+2024-06-27 17:32:51.118 [info] Validating found git in: "git"
+2024-06-27 17:32:51.118 [info] Using git "2.45.0" from "git"
+2024-06-27 17:32:51.118 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-27 17:32:51.118 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-06-27 17:32:51.118 [info] Open repository: /home/akuma/usr/Codes/Data-Structure-Final-Project
+2024-06-27 17:32:51.118 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-27 17:32:51.118 [info] > git config --get commit.template [7ms]
+2024-06-27 17:32:51.118 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-27 17:32:51.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-27 17:32:51.118 [info] > git status -z -uall [1ms]
+2024-06-27 17:32:51.118 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-06-27 17:32:51.118 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [14ms]
+2024-06-27 17:32:51.118 [info] > git diff --name-status -z --diff-filter=ADMR da15a972129ab28621cdd8bb3e2229d9822bf595...refs/remotes/origin/main [3ms]
+2024-06-27 17:32:51.118 [info] > git config --get commit.template [8ms]
+2024-06-27 17:32:51.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-27 17:32:51.122 [info] > git status -z -uall [2ms]
+2024-06-27 17:32:51.692 [info] > git check-ignore -v -z --stdin [0ms]
+2024-06-27 17:32:52.416 [info] > git show --textconv :main.cpp [4ms]
+2024-06-27 17:32:52.417 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-27 17:32:52.421 [info] > git cat-file -s 67723255316a02bb84c4d6fe757fa0128f70ecfa [1ms]
+2024-06-27 17:32:52.603 [info] > git fetch [1550ms]
+2024-06-27 17:32:52.603 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-27 17:32:52.609 [info] > git config --get commit.template [3ms]
+2024-06-27 17:32:52.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-06-27 17:32:52.614 [info] > git status -z -uall [1ms]
+2024-06-27 17:33:23.831 [info] > git show --textconv :main.cpp [3ms]
+2024-06-27 17:33:23.832 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-27 17:33:23.836 [info] > git cat-file -s 67723255316a02bb84c4d6fe757fa0128f70ecfa [0ms]
+2024-06-27 17:33:25.641 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-27 17:33:35.461 [info] Log level: Info
+2024-06-27 17:33:35.461 [info] Validating found git in: "git"
+2024-06-27 17:33:35.461 [info] Using git "2.45.0" from "git"
+2024-06-27 17:33:35.461 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-27 17:33:35.461 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-06-27 17:33:35.461 [info] Open repository: /home/akuma/usr/Codes/wx_cmake_template
+2024-06-27 17:33:35.461 [info] > git config --get commit.template [4ms]
+2024-06-27 17:33:35.461 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-27 17:33:35.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-06-27 17:33:35.461 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 17:33:35.461 [info] > git rev-parse --show-toplevel [5ms]
+2024-06-27 17:33:35.461 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2024-06-27 17:33:35.461 [info] > git status -z -uall [5ms]
+2024-06-27 17:33:35.461 [info] > git rev-parse --show-toplevel [16ms]
+2024-06-27 17:33:35.461 [info] > git merge-base refs/heads/master refs/remotes/origin/master [11ms]
+2024-06-27 17:33:35.461 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [3ms]
+2024-06-27 17:33:35.461 [info] > git config --get commit.template [10ms]
+2024-06-27 17:33:35.461 [info] > git diff --name-status -z --diff-filter=ADMR 05e572b9d7d09b6c86038f51f1b7ac191a806cfb...refs/remotes/origin/master [3ms]
+2024-06-27 17:33:35.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-27 17:33:35.465 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 17:33:35.466 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2024-06-27 17:33:35.469 [info] > git status -z -uall [1ms]
+2024-06-27 17:33:35.996 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-27 17:33:37.105 [info] > git fetch [1706ms]
+2024-06-27 17:33:37.105 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-27 17:33:37.110 [info] > git config --get commit.template [2ms]
+2024-06-27 17:33:37.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-27 17:33:37.112 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 17:33:37.112 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2024-06-27 17:33:37.116 [info] > git status -z -uall [1ms]
+2024-06-27 17:33:38.601 [info] > git show --textconv :copy_to_project.sh [2ms]
+2024-06-27 17:33:38.602 [info] > git ls-files --stage -- /home/akuma/usr/Codes/wx_cmake_template/copy_to_project.sh [1ms]
+2024-06-27 17:33:38.605 [info] > git cat-file -s 6b9092e907e78a65120c94b8d36528701db3da1e [1ms]
+2024-06-27 17:34:00.224 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-27 17:34:02.068 [info] > git show --textconv :src/main.cpp [3ms]
+2024-06-27 17:34:02.069 [info] > git ls-files --stage -- /home/akuma/usr/Codes/wx_cmake_template/src/main.cpp [1ms]
+2024-06-27 17:34:02.073 [info] > git cat-file -s 9cd999b953c2719f535c820143690f2e5a24cd83 [1ms]
+2024-06-27 17:34:11.604 [info] > git config --get commit.template [4ms]
+2024-06-27 17:34:11.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-27 17:34:11.608 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 17:34:11.608 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2024-06-27 17:34:11.612 [info] > git status -z -uall [1ms]
+2024-06-27 17:34:11.618 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-27 17:34:36.612 [info] > git show --textconv :copy_to_project.sh [2ms]
+2024-06-27 17:34:36.613 [info] > git ls-files --stage -- /home/akuma/usr/Codes/wx_cmake_template/copy_to_project.sh [1ms]
+2024-06-27 17:34:36.615 [info] > git cat-file -s 6b9092e907e78a65120c94b8d36528701db3da1e [0ms]
+2024-06-27 17:34:50.684 [info] > git show --textconv :src/main.cpp [2ms]
+2024-06-27 17:34:50.685 [info] > git ls-files --stage -- /home/akuma/usr/Codes/wx_cmake_template/src/main.cpp [1ms]
+2024-06-27 17:34:50.688 [info] > git cat-file -s 9cd999b953c2719f535c820143690f2e5a24cd83 [1ms]
+2024-06-27 17:35:21.679 [info] > git config --get commit.template [3ms]
+2024-06-27 17:35:21.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-06-27 17:35:21.682 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 17:35:21.682 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2024-06-27 17:35:21.685 [info] > git status -z -uall [1ms]
+2024-06-27 17:58:37.643 [info] > git fetch [3493ms]
+2024-06-27 17:58:37.643 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-27 17:58:37.648 [info] > git config --get commit.template [2ms]
+2024-06-27 17:58:37.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-27 17:58:37.651 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 17:58:37.652 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-06-27 17:58:37.655 [info] > git status -z -uall [1ms]
+2024-06-27 18:18:41.874 [info] > git ls-files --stage -- /home/akuma/usr/Codes/wx_cmake_template/src/main.cpp [2ms]
+2024-06-27 18:18:41.879 [info] > git cat-file -s 9cd999b953c2719f535c820143690f2e5a24cd83 [1ms]
+2024-06-27 18:18:41.896 [info] > git show --textconv :src/main.cpp [2ms]
+2024-06-27 18:18:43.018 [info] > git ls-files --stage -- /home/akuma/usr/Codes/wx_cmake_template/src/main.cpp [1ms]
+2024-06-27 18:18:43.021 [info] > git cat-file -s 9cd999b953c2719f535c820143690f2e5a24cd83 [1ms]
+2024-06-27 18:18:43.025 [info] > git show --textconv :src/main.cpp [1ms]
+2024-06-27 18:18:43.774 [info] > git fetch [1940ms]
+2024-06-27 18:18:43.774 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-27 18:18:43.780 [info] > git config --get commit.template [3ms]
+2024-06-27 18:18:43.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-27 18:18:43.784 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 18:18:43.784 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2024-06-27 18:18:43.788 [info] > git status -z -uall [1ms]
+2024-06-27 22:10:20.799 [info] > git fetch [265ms]
+2024-06-27 22:10:20.800 [info] ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-27 22:10:20.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-06-27 22:10:20.811 [info] > git config --get commit.template [6ms]
+2024-06-27 22:10:20.812 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/wx_cmake_template/.git/refs/remotes/origin/master'
+2024-06-27 22:10:20.813 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-06-27 22:10:20.818 [info] > git status -z -uall [3ms]

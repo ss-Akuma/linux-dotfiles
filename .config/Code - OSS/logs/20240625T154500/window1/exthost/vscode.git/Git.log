@@ -1,0 +1,527 @@
+2024-06-25 15:45:04.063 [info] Log level: Info
+2024-06-25 15:45:04.063 [info] Validating found git in: "git"
+2024-06-25 15:45:04.063 [info] Using git "2.45.0" from "git"
+2024-06-25 15:45:04.063 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-25 15:45:04.063 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2024-06-25 15:45:04.063 [info] Open repository: /home/akuma/usr/Codes/Data-Structure-Final-Project
+2024-06-25 15:45:04.077 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-25 15:45:04.077 [info] > git config --get commit.template [10ms]
+2024-06-25 15:45:04.090 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-25 15:45:04.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/merge/quick-Sort refs/remotes/merge/quick-Sort [3ms]
+2024-06-25 15:45:04.103 [info] > git status -z -uall [9ms]
+2024-06-25 15:45:04.113 [info] > git config --get commit.template [1ms]
+2024-06-25 15:45:04.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/merge/quick-Sort refs/remotes/merge/quick-Sort [22ms]
+2024-06-25 15:45:04.146 [info] > git status -z -uall [2ms]
+2024-06-25 15:45:04.563 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 15:45:04.914 [info] > git show --textconv :main.cpp [4ms]
+2024-06-25 15:45:04.916 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:45:04.923 [info] > git cat-file -s 7f6721855e727e0631275670c4e9f2faa4a21f85 [2ms]
+2024-06-25 15:45:25.242 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-25 15:45:25.242 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-25 15:45:29.665 [info] > git show --textconv :main.cpp [4ms]
+2024-06-25 15:45:29.666 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:45:29.670 [info] > git cat-file -s 7f6721855e727e0631275670c4e9f2faa4a21f85 [1ms]
+2024-06-25 15:46:05.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/merge/quick-Sort refs/remotes/merge/quick-Sort [2ms]
+2024-06-25 15:46:05.778 [info] > git config --get commit.template [8ms]
+2024-06-25 15:46:05.786 [info] > git status -z -uall [6ms]
+2024-06-25 15:46:05.789 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:46:05.793 [info] > git cat-file -s 7f6721855e727e0631275670c4e9f2faa4a21f85 [1ms]
+2024-06-25 15:46:05.801 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 15:46:37.172 [info] > git config --get commit.template [5ms]
+2024-06-25 15:46:37.177 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [7ms]
+2024-06-25 15:46:37.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-06-25 15:46:37.181 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:46:37.193 [info] > git status -z -uall [7ms]
+2024-06-25 15:46:37.193 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 15:46:37.202 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-06-25 15:46:37.209 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-06-25 15:46:37.215 [info] > git diff --name-status -z --diff-filter=ADMR 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...refs/remotes/origin/main [1ms]
+2024-06-25 15:47:06.205 [info] > git config --get commit.template [7ms]
+2024-06-25 15:47:06.209 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [4ms]
+2024-06-25 15:47:06.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-06-25 15:47:06.215 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:47:06.227 [info] > git status -z -uall [7ms]
+2024-06-25 15:47:06.228 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 15:47:09.517 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-06-25 15:47:09.522 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-06-25 15:47:11.239 [info] > git config --get commit.template [5ms]
+2024-06-25 15:47:11.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 15:47:11.244 [info] > git status -z -uall [1ms]
+2024-06-25 15:47:11.442 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent --author-date-order 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4..6c22994c06ed84cbe5c4a96986fd963d339bf251 [10ms]
+2024-06-25 15:47:39.343 [info] > git log --oneline --cherry main...main@{upstream} -- [9ms]
+2024-06-25 15:47:40.532 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:47:40.536 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:47:40.542 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 15:47:53.794 [info] > git pull --tags origin main [14446ms]
+2024-06-25 15:47:53.794 [info] From github.com:AminHSI/Data-Structure-Final-Project
+ * branch            main       -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+2024-06-25 15:47:53.802 [info] > git config --get commit.template [3ms]
+2024-06-25 15:47:53.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 15:47:53.806 [info] > git status -z -uall [1ms]
+2024-06-25 15:47:57.207 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:47:57.211 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [0ms]
+2024-06-25 15:47:57.218 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 15:48:48.002 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent --author-date-order 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4..a4b205940e47a604a019e048eabd5f4aa6c31ccb [12ms]
+2024-06-25 15:48:48.010 [info] > git diff --shortstat 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...a4b205940e47a604a019e048eabd5f4aa6c31ccb [2ms]
+2024-06-25 15:49:03.440 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [1ms]
+2024-06-25 15:49:03.446 [info] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+2024-06-25 15:49:04.641 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:49:04.646 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [0ms]
+2024-06-25 15:49:04.656 [info] > git show --textconv :main.cpp [2ms]
+2024-06-25 15:49:35.523 [info] > git pull --tags origin main [32074ms]
+2024-06-25 15:49:35.523 [info] From github.com:AminHSI/Data-Structure-Final-Project
+ * branch            main       -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+2024-06-25 15:49:35.530 [info] > git config --get commit.template [3ms]
+2024-06-25 15:49:35.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 15:49:35.537 [info] > git status -z -uall [1ms]
+2024-06-25 15:49:38.398 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:49:38.403 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [2ms]
+2024-06-25 15:49:38.415 [info] > git show --textconv :main.cpp [2ms]
+2024-06-25 15:53:25.246 [info] > git show --textconv :main.cpp [5ms]
+2024-06-25 15:53:25.247 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:53:25.253 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [2ms]
+2024-06-25 15:53:40.758 [info] > git diff --name-status -z --diff-filter=ADMR 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...a4b205940e47a604a019e048eabd5f4aa6c31ccb [1ms]
+2024-06-25 15:53:41.274 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 15:53:42.707 [info] > git show --textconv 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4:main.cpp [12ms]
+2024-06-25 15:53:42.707 [info] > git show --textconv a4b205940e47a604a019e048eabd5f4aa6c31ccb:main.cpp [8ms]
+2024-06-25 15:53:42.707 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [4ms]
+2024-06-25 15:53:42.710 [info] > git ls-tree -l a4b205940e47a604a019e048eabd5f4aa6c31ccb -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [3ms]
+2024-06-25 15:53:43.220 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-25 15:54:52.823 [info] > git show --textconv :main.cpp [4ms]
+2024-06-25 15:54:52.824 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:54:52.827 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:54:53.302 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [4ms]
+2024-06-25 15:54:53.303 [info] > git ls-tree -l a4b205940e47a604a019e048eabd5f4aa6c31ccb -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:55:07.317 [info] > git show --textconv :main.cpp [4ms]
+2024-06-25 15:55:07.318 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:55:07.322 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:55:07.759 [info] > git ls-tree -l a4b205940e47a604a019e048eabd5f4aa6c31ccb -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:55:07.760 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [5ms]
+2024-06-25 15:55:20.095 [info] > git diff --name-status -z --diff-filter=ADMR 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...6c22994c06ed84cbe5c4a96986fd963d339bf251 [1ms]
+2024-06-25 15:55:20.613 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 15:55:52.615 [info] > git diff --name-status -z --diff-filter=ADMR 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c [1ms]
+2024-06-25 15:55:53.126 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 15:55:53.873 [info] > git show --textconv 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c:main.cpp [5ms]
+2024-06-25 15:55:53.874 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [10ms]
+2024-06-25 15:55:53.875 [info] > git ls-tree -l 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:55:54.381 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-25 15:56:02.023 [info] > git show --textconv :main.cpp [6ms]
+2024-06-25 15:56:02.023 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:56:02.029 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:56:03.236 [info] > git show --textconv 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4:main.cpp [10ms]
+2024-06-25 15:56:03.236 [info] > git show --textconv 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c:main.cpp [6ms]
+2024-06-25 15:56:03.237 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [4ms]
+2024-06-25 15:56:03.238 [info] > git ls-tree -l 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:56:46.996 [info] > git show --textconv a4b205940e47a604a019e048eabd5f4aa6c31ccb:main.cpp [5ms]
+2024-06-25 15:56:46.997 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [11ms]
+2024-06-25 15:56:46.998 [info] > git ls-tree -l a4b205940e47a604a019e048eabd5f4aa6c31ccb -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [3ms]
+2024-06-25 15:56:54.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [1ms]
+2024-06-25 15:56:56.074 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [5ms]
+2024-06-25 15:56:56.075 [info] > git ls-tree -l a4b205940e47a604a019e048eabd5f4aa6c31ccb -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:56:56.084 [info] > git show --textconv 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4:main.cpp [6ms]
+2024-06-25 15:56:56.084 [info] > git show --textconv a4b205940e47a604a019e048eabd5f4aa6c31ccb:main.cpp [2ms]
+2024-06-25 15:56:57.969 [info] > git show --textconv :main.cpp [5ms]
+2024-06-25 15:56:57.970 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 15:56:57.977 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:57:18.696 [info] > git fetch origin main [23815ms]
+2024-06-25 15:57:18.696 [info] From github.com:AminHSI/Data-Structure-Final-Project
+ * branch            main       -> FETCH_HEAD
+2024-06-25 15:57:18.705 [info] > git config --get commit.template [5ms]
+2024-06-25 15:57:18.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-25 15:57:18.711 [info] > git status -z -uall [2ms]
+2024-06-25 15:57:19.503 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:57:19.506 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [0ms]
+2024-06-25 15:57:19.513 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 15:57:20.507 [info] > git config --get commit.template [5ms]
+2024-06-25 15:57:20.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 15:57:20.512 [info] > git status -z -uall [1ms]
+2024-06-25 15:57:27.396 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 15:57:27.400 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 15:57:27.404 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 15:57:34.670 [info] > git fetch [8457ms]
+2024-06-25 15:57:34.670 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 15:57:34.678 [info] > git config --get commit.template [4ms]
+2024-06-25 15:57:34.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 15:57:34.683 [info] > git status -z -uall [1ms]
+2024-06-25 16:00:25.436 [info] > git show --textconv 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4:main.cpp [13ms]
+2024-06-25 16:00:25.436 [info] > git show --textconv a4b205940e47a604a019e048eabd5f4aa6c31ccb:main.cpp [9ms]
+2024-06-25 16:00:25.436 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [5ms]
+2024-06-25 16:00:25.437 [info] > git ls-tree -l a4b205940e47a604a019e048eabd5f4aa6c31ccb -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 16:00:29.289 [info] > git show --textconv :main.cpp [4ms]
+2024-06-25 16:00:29.290 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:00:29.295 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:00:35.923 [info] > git ls-tree -l a4b205940e47a604a019e048eabd5f4aa6c31ccb -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [5ms]
+2024-06-25 16:00:35.923 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [7ms]
+2024-06-25 16:00:35.924 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 16:00:35.932 [info] > git show --textconv a4b205940e47a604a019e048eabd5f4aa6c31ccb:main.cpp [3ms]
+2024-06-25 16:00:35.933 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [7ms]
+2024-06-25 16:00:35.934 [info] > git show --textconv 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4:main.cpp [2ms]
+2024-06-25 16:00:35.939 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:00:36.567 [info] > git fetch [1872ms]
+2024-06-25 16:00:36.567 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:00:36.574 [info] > git config --get commit.template [3ms]
+2024-06-25 16:00:36.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-25 16:00:36.579 [info] > git status -z -uall [1ms]
+2024-06-25 16:00:47.583 [info] > git show --textconv 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c:main.cpp [6ms]
+2024-06-25 16:00:47.583 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [11ms]
+2024-06-25 16:00:47.584 [info] > git ls-tree -l 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 16:01:00.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [1ms]
+2024-06-25 16:01:00.590 [info] > git log --oneline --cherry main...main@{upstream} -- [2ms]
+2024-06-25 16:01:01.789 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [6ms]
+2024-06-25 16:01:01.790 [info] > git ls-tree -l 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 16:01:01.801 [info] > git show --textconv 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4:main.cpp [3ms]
+2024-06-25 16:01:01.802 [info] > git show --textconv 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c:main.cpp [1ms]
+2024-06-25 16:01:06.834 [info] > git pull --tags origin main [6241ms]
+2024-06-25 16:01:06.834 [info] From github.com:AminHSI/Data-Structure-Final-Project
+ * branch            main       -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+2024-06-25 16:01:06.842 [info] > git config --get commit.template [5ms]
+2024-06-25 16:01:06.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-25 16:01:06.847 [info] > git status -z -uall [1ms]
+2024-06-25 16:01:07.075 [info] > git show --textconv :main.cpp [3ms]
+2024-06-25 16:01:07.076 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 16:01:07.079 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:01:07.839 [info] > git ls-tree -l 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [3ms]
+2024-06-25 16:01:07.840 [info] > git ls-tree -l 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [7ms]
+2024-06-25 16:01:07.840 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:01:07.856 [info] > git show --textconv 287e788ebb52f5d15e6cfd1b11bf03ed2363ab0c:main.cpp [7ms]
+2024-06-25 16:01:07.857 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [13ms]
+2024-06-25 16:01:07.858 [info] > git show --textconv 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4:main.cpp [3ms]
+2024-06-25 16:01:07.862 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:01:13.347 [info] > git config --get commit.template [4ms]
+2024-06-25 16:01:13.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:01:13.353 [info] > git status -z -uall [1ms]
+2024-06-25 16:02:20.449 [info] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+2024-06-25 16:02:24.098 [info] > git show --textconv :main.cpp [3ms]
+2024-06-25 16:02:24.099 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:02:24.106 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:03:00.076 [info] > git show --textconv :main.cpp [7ms]
+2024-06-25 16:03:00.077 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [3ms]
+2024-06-25 16:03:00.081 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:03:03.577 [info] > git show --textconv :main.cpp [5ms]
+2024-06-25 16:03:03.579 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [3ms]
+2024-06-25 16:03:03.585 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:03:31.605 [info] > git pull --tags origin main [71152ms]
+2024-06-25 16:03:31.605 [info] From github.com:AminHSI/Data-Structure-Final-Project
+ * branch            main       -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+2024-06-25 16:03:31.612 [info] > git config --get commit.template [1ms]
+2024-06-25 16:03:31.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:03:31.621 [info] > git status -z -uall [1ms]
+2024-06-25 16:03:33.421 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [0ms]
+2024-06-25 16:03:33.425 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:03:33.433 [info] > git show --textconv :main.cpp [2ms]
+2024-06-25 16:03:34.426 [info] > git config --get commit.template [4ms]
+2024-06-25 16:03:34.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-25 16:03:34.432 [info] > git status -z -uall [1ms]
+2024-06-25 16:03:38.136 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:03:38.140 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:03:38.148 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:03:43.301 [info] > git fetch [6347ms]
+2024-06-25 16:03:43.301 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:03:43.307 [info] > git config --get commit.template [2ms]
+2024-06-25 16:03:43.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:03:43.312 [info] > git status -z -uall [1ms]
+2024-06-25 16:03:50.616 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 6c22994c06ed84cbe5c4a96986fd963d339bf251 [2ms]
+2024-06-25 16:03:50.621 [info] > git diff --name-status -z --diff-filter=ADMR 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...6c22994c06ed84cbe5c4a96986fd963d339bf251 [1ms]
+2024-06-25 16:03:50.664 [info] > git show --textconv 6c22994c06ed84cbe5c4a96986fd963d339bf251:.vscode/c_cpp_properties.json [21ms]
+2024-06-25 16:03:50.664 [info] > git show --textconv 6c22994c06ed84cbe5c4a96986fd963d339bf251:.vscode/launch.json [17ms]
+2024-06-25 16:03:50.664 [info] > git show --textconv 6c22994c06ed84cbe5c4a96986fd963d339bf251:.vscode/settings.json [12ms]
+2024-06-25 16:03:50.664 [info] > git ls-tree -l 6c22994c06ed84cbe5c4a96986fd963d339bf251 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/.vscode/launch.json [4ms]
+2024-06-25 16:03:50.664 [info] > git ls-tree -l 6c22994c06ed84cbe5c4a96986fd963d339bf251 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/.vscode/c_cpp_properties.json [8ms]
+2024-06-25 16:03:50.667 [info] > git ls-tree -l 6c22994c06ed84cbe5c4a96986fd963d339bf251 -- /home/akuma/usr/Codes/Data-Structure-Final-Project/.vscode/settings.json [4ms]
+2024-06-25 16:03:51.170 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 16:04:33.087 [info] > git show --textconv :main.cpp [6ms]
+2024-06-25 16:04:33.089 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [3ms]
+2024-06-25 16:04:33.095 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [1ms]
+2024-06-25 16:06:01.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:06:01.309 [info] > git status -z -uall [3ms]
+2024-06-25 16:06:01.365 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:06:01.373 [info] > git cat-file -s 8db8e473d1010b4ba7eda65c5d2704d7f0d6a1a2 [2ms]
+2024-06-25 16:06:01.451 [info] > git show --textconv :main.cpp [2ms]
+2024-06-25 16:06:01.984 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 16:06:06.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:06:06.331 [info] > git status -z -uall [3ms]
+2024-06-25 16:06:22.093 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [4ms]
+2024-06-25 16:06:22.097 [info] > git config --get commit.template [1ms]
+2024-06-25 16:06:22.109 [info] > git config --get commit.template [4ms]
+2024-06-25 16:06:22.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-25 16:06:22.117 [info] > git status -z -uall [2ms]
+2024-06-25 16:06:22.128 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-06-25 16:06:22.135 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-06-25 16:06:22.140 [info] > git diff --name-status -z --diff-filter=ADMR a4b205940e47a604a019e048eabd5f4aa6c31ccb...refs/remotes/origin/main [1ms]
+2024-06-25 16:06:22.184 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-06-25 16:06:22.195 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [7ms]
+2024-06-25 16:06:22.195 [info] > git config --get commit.template [1ms]
+2024-06-25 16:06:22.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-25 16:06:22.206 [info] > git status -z -uall [2ms]
+2024-06-25 16:06:23.313 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:06:23.317 [info] > git cat-file -s 8db8e473d1010b4ba7eda65c5d2704d7f0d6a1a2 [1ms]
+2024-06-25 16:06:23.322 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:06:24.314 [info] > git config --get commit.template [2ms]
+2024-06-25 16:06:24.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-25 16:06:24.326 [info] > git status -z -uall [2ms]
+2024-06-25 16:06:35.113 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent --author-date-order a4b205940e47a604a019e048eabd5f4aa6c31ccb..f6d6f982bd279b2b3f94e8d9abb2d6fa6185187c [2ms]
+2024-06-25 16:06:35.158 [info] > git diff --shortstat a4b205940e47a604a019e048eabd5f4aa6c31ccb...f6d6f982bd279b2b3f94e8d9abb2d6fa6185187c [1ms]
+2024-06-25 16:06:39.470 [info] > git diff --name-status -z --diff-filter=ADMR 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...6c22994c06ed84cbe5c4a96986fd963d339bf251 [1ms]
+2024-06-25 16:06:44.504 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [0ms]
+2024-06-25 16:06:44.508 [info] > git cat-file -s 8db8e473d1010b4ba7eda65c5d2704d7f0d6a1a2 [1ms]
+2024-06-25 16:06:44.512 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:06:53.642 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 16:07:16.184 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-25 16:07:16.185 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-25 16:07:36.080 [info] > git show --textconv :main.cpp [5ms]
+2024-06-25 16:07:36.081 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:07:36.086 [info] > git cat-file -s 8db8e473d1010b4ba7eda65c5d2704d7f0d6a1a2 [1ms]
+2024-06-25 16:07:42.369 [info] > git fetch [59049ms]
+2024-06-25 16:07:42.369 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:07:42.376 [info] > git config --get commit.template [3ms]
+2024-06-25 16:07:42.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:07:42.381 [info] > git status -z -uall [2ms]
+2024-06-25 16:07:51.476 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-25 16:07:51.476 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-25 16:08:04.770 [info] > git show --textconv :main.cpp [5ms]
+2024-06-25 16:08:04.770 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:08:04.775 [info] > git cat-file -s 8db8e473d1010b4ba7eda65c5d2704d7f0d6a1a2 [2ms]
+2024-06-25 16:08:23.673 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-25 16:08:23.673 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-25 16:08:35.212 [info] > git show --textconv :main.cpp [5ms]
+2024-06-25 16:08:35.213 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 16:08:35.218 [info] > git cat-file -s 8db8e473d1010b4ba7eda65c5d2704d7f0d6a1a2 [1ms]
+2024-06-25 16:08:48.601 [info] > git config --get commit.template [3ms]
+2024-06-25 16:08:48.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:08:48.606 [info] > git status -z -uall [1ms]
+2024-06-25 16:09:41.476 [info] > git config --get commit.template [3ms]
+2024-06-25 16:09:41.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:09:41.483 [info] > git status -z -uall [2ms]
+2024-06-25 16:10:01.706 [info] > git config --get commit.template [4ms]
+2024-06-25 16:10:01.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:10:01.711 [info] > git status -z -uall [1ms]
+2024-06-25 16:10:14.172 [info] > git config --get commit.template [4ms]
+2024-06-25 16:10:14.173 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:10:14.177 [info] > git status -z -uall [1ms]
+2024-06-25 16:10:43.571 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:10:43.575 [info] > git cat-file -s 8db8e473d1010b4ba7eda65c5d2704d7f0d6a1a2 [1ms]
+2024-06-25 16:10:43.580 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:10:55.486 [info] > git fetch [13099ms]
+2024-06-25 16:10:55.486 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:10:55.493 [info] > git config --get commit.template [3ms]
+2024-06-25 16:10:55.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:10:55.498 [info] > git status -z -uall [2ms]
+2024-06-25 16:11:59.650 [info] > git config --get commit.template [2ms]
+2024-06-25 16:11:59.668 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [10ms]
+2024-06-25 16:11:59.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-06-25 16:11:59.673 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 16:11:59.682 [info] > git status -z -uall [2ms]
+2024-06-25 16:11:59.692 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-06-25 16:11:59.696 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-06-25 16:11:59.701 [info] > git diff --name-status -z --diff-filter=ADMR 4297c1a8fb83bbd7ae35ae70e286204abf1e492a...refs/remotes/origin/main [2ms]
+2024-06-25 16:11:59.709 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:12:04.700 [info] > git config --get commit.template [5ms]
+2024-06-25 16:12:04.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-06-25 16:12:04.705 [info] > git status -z -uall [2ms]
+2024-06-25 16:12:11.700 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-25 16:12:11.700 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-06-25 16:12:12.376 [info] > git show --textconv :main.cpp [5ms]
+2024-06-25 16:12:12.377 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-25 16:12:12.381 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [0ms]
+2024-06-25 16:12:15.059 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-06-25 16:12:15.064 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-06-25 16:12:18.686 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-25 16:13:56.724 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:13:56.727 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 16:13:56.733 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:14:16.846 [info] > git fetch [21342ms]
+2024-06-25 16:14:16.846 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:14:16.850 [info] > git config --get commit.template [1ms]
+2024-06-25 16:14:16.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:14:16.858 [info] > git status -z -uall [1ms]
+2024-06-25 16:17:18.049 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:17:18.053 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [0ms]
+2024-06-25 16:17:18.058 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:17:22.848 [info] > git fetch [5984ms]
+2024-06-25 16:17:22.848 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:17:22.855 [info] > git config --get commit.template [2ms]
+2024-06-25 16:17:22.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:17:22.859 [info] > git status -z -uall [1ms]
+2024-06-25 16:20:24.062 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [0ms]
+2024-06-25 16:20:24.066 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 16:20:24.073 [info] > git show --textconv :main.cpp [2ms]
+2024-06-25 16:20:28.315 [info] > git fetch [5434ms]
+2024-06-25 16:20:28.315 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:20:28.321 [info] > git config --get commit.template [3ms]
+2024-06-25 16:20:28.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:20:28.326 [info] > git status -z -uall [1ms]
+2024-06-25 16:23:29.534 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:23:29.537 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 16:23:29.542 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:23:30.065 [info] > git fetch [1712ms]
+2024-06-25 16:23:30.065 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:23:30.069 [info] > git config --get commit.template [1ms]
+2024-06-25 16:23:30.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:23:30.077 [info] > git status -z -uall [1ms]
+2024-06-25 16:26:31.289 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:26:31.293 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 16:26:31.298 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:26:31.741 [info] > git fetch [1635ms]
+2024-06-25 16:26:31.741 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:26:31.747 [info] > git config --get commit.template [3ms]
+2024-06-25 16:26:31.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:26:31.751 [info] > git status -z -uall [1ms]
+2024-06-25 16:29:32.965 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [1ms]
+2024-06-25 16:29:32.968 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 16:29:32.973 [info] > git show --textconv :main.cpp [1ms]
+2024-06-25 16:29:33.452 [info] > git fetch [1670ms]
+2024-06-25 16:29:33.452 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:29:33.458 [info] > git config --get commit.template [3ms]
+2024-06-25 16:29:33.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-06-25 16:29:33.463 [info] > git status -z -uall [1ms]
+2024-06-25 16:32:34.676 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [0ms]
+2024-06-25 16:32:34.680 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 16:32:34.685 [info] > git show --textconv :main.cpp [2ms]
+2024-06-25 16:32:35.149 [info] > git fetch [1655ms]
+2024-06-25 16:32:35.149 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 16:32:35.154 [info] > git config --get commit.template [2ms]
+2024-06-25 16:32:35.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 16:32:35.159 [info] > git status -z -uall [1ms]
+2024-06-25 17:14:51.247 [info] > git fetch [1651ms]
+2024-06-25 17:14:51.248 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-06-25 17:14:51.256 [info] > git config --get commit.template [3ms]
+2024-06-25 17:14:51.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-25 17:14:51.262 [info] > git status -z -uall [2ms]
+2024-06-25 17:14:55.316 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [0ms]
+2024-06-25 17:14:55.320 [info] > git cat-file -s c0948b2f05c35a90af8579cb4ea0c2935ec2bc47 [1ms]
+2024-06-25 17:14:55.329 [info] > git show --textconv :main.cpp [1ms]

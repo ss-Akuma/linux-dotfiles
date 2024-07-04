@@ -1,0 +1,25 @@
+2024-06-19 16:42:46.231 [info] Log level: Info
+2024-06-19 16:42:46.231 [info] Validating found git in: "git"
+2024-06-19 16:42:46.231 [info] Using git "2.45.0" from "git"
+2024-06-19 16:42:46.231 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-19 16:42:46.231 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-06-19 16:42:46.231 [info] Open repository: /home/akuma/usr/Codes/Data-Structure-Final-Project
+2024-06-19 16:42:46.239 [info] > git config --get commit.template [3ms]
+2024-06-19 16:42:46.241 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-19 16:42:46.254 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-19 16:42:46.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-06-19 16:42:46.258 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/Data-Structure-Final-Project/.git/refs/remotes/origin/main'
+2024-06-19 16:42:46.259 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-06-19 16:42:46.265 [info] > git status -z -uall [3ms]
+2024-06-19 16:42:46.282 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-06-19 16:42:46.286 [info] > git config --get commit.template [5ms]
+2024-06-19 16:42:46.290 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-06-19 16:42:46.298 [info] > git diff --name-status -z --diff-filter=ADMR 725f5f1d5d661fd4866f7e27f7f4fc1598401cd4...refs/remotes/origin/main [4ms]
+2024-06-19 16:42:46.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-06-19 16:42:46.307 [warning] ENOENT: no such file or directory, open '/home/akuma/usr/Codes/Data-Structure-Final-Project/.git/refs/remotes/origin/main'
+2024-06-19 16:42:46.308 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-06-19 16:42:46.317 [info] > git status -z -uall [3ms]
+2024-06-19 16:42:46.726 [info] > git show --textconv :main.cpp [3ms]
+2024-06-19 16:42:46.727 [info] > git ls-files --stage -- /home/akuma/usr/Codes/Data-Structure-Final-Project/main.cpp [2ms]
+2024-06-19 16:42:46.733 [info] > git cat-file -s 598f8c1cfa2ae14752e93e42ce0b0484d13dae07 [3ms]
+2024-06-19 16:42:46.734 [info] > git check-ignore -v -z --stdin [1ms]

@@ -1,0 +1,18 @@
+2024-06-25 15:51:58.122 [info] Getting Manifest... donjayamanne.githistory
+2024-06-25 15:52:01.809 [info] Installing extension: donjayamanne.githistory
+2024-06-25 15:53:37.903 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-25 15:53:37.903 [info] Extension signature verification is not done: donjayamanne.githistory
+2024-06-25 15:53:37.944 [info] Extracted extension to file:///home/akuma/.vscode-oss/extensions/donjayamanne.githistory-0.6.20-universal: donjayamanne.githistory
+2024-06-25 15:53:37.947 [info] Renamed to /home/akuma/.vscode-oss/extensions/donjayamanne.githistory-0.6.20-universal
+2024-06-25 15:53:37.949 [info] Extracting extension completed. donjayamanne.githistory
+2024-06-25 15:53:37.956 [info] Extension installed successfully: donjayamanne.githistory
+2024-06-25 15:53:38.032 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/akuma/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/akuma/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:29989)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30100)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109493)
